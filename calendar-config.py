@@ -58,43 +58,63 @@ else:
         ]
     if calendar.month == 1 and calendar.day == 1:
         print(f'Dia especial: {special_days[0]}')
+
     if calendar.month == 2 and calendar.day == 19:
         print(f'Dia especial: {special_days[1]}')
+
     if calendar.month == 3 and calendar.day == 5:
         print(f'Dia especial: {special_days[2]}')
+
     if calendar.month == 3 and calendar.day == 8:
         print(f'Dia especial: {special_days[3]}')
+
     if calendar.month == 3 and calendar.day == 15:
         print(f'Dia especial: {special_days[4]}')
+
     if calendar.month == 4 and calendar.day == 21:
         print(f'Dias especiais: {special_days[5]} e {special_days}')
+
     if calendar.month == 5 and calendar.day == 23:
         print(f'Dia especial: {special_days[6]}')
+
     if calendar.month == 6 and calendar.day == 1:
         print(f'Dia especial: {special_days[7]}')
+
     if calendar.month == 6 and calendar.day == 12:
         print(f'Dia especial: {special_days[8]}')
+
     if calendar.month == 6 and calendar.day == 12:
         print(f'Dia especial: {special_days[9]}')
+
     if calendar.month == 7 and calendar.day == 12:
         print(f'Dia especial: {special_days[10]}')
+
     if calendar.month == 7 and calendar.day == 20:
         print(f'Dia especial: {special_days[11]}')
+
     if calendar.month == 8 and calendar.day == 15:
         print(f'Dia especial: {special_days[12]}')
+
     if calendar.month == 9 and calendar.day == 11:
         print(f'Dia especial: {special_days[13]}')
+
     if calendar.month == 9 and calendar.day == 15:
         print(f'Dia especial: {special_days[14]}')
+
     if calendar.month == 9 and calendar.day == 7:
         print(f'Dia especial: {special_days[15]}')
+
     if calendar.month == 10 and calendar.day == 12:
         print(f'Dia especial: {special_days[16]}')
+
     if calendar.month == 11 and calendar.day == 15:
         print(f'Dia especial: {special_days[17]}')
+
     if calendar.month == 11 and calendar.day == 29:
         print(f'Dia especial: {special_days[18]}')
+
     if calendar.month == 12 and calendar.day == 2:
         print(f'Dia especial: {special_days[19]}')
+
     if calendar.month == 12 and calendar.day == 25:
         print(f'Dia especial: {special_days[20]}')
