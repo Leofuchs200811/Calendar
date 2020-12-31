@@ -9,47 +9,47 @@ if __name__ == '__main__':
     wrong_file()
 else:
     calendar = date.today()
-    meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
+    months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
              'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 
     def show_date():
         print(f'Dia: {calendar.day}')
 
         if calendar.month == 1:
-            print(f'Mês: {meses[0]}')
+            print(f'Mês: {months[0]}')
 
         if calendar.month == 2:
-            print(f'Mês: {meses[1]}')
+            print(f'Mês: {months[1]}')
 
         if calendar.month == 3:
-            print(f'Mês: {meses[2]}')
+            print(f'Mês: {months[2]}')
 
         if calendar.month == 4:
-            print(f'Mês: {meses[3]}')
+            print(f'Mês: {months[3]}')
 
         if calendar.month == 5:
-            print(f'Mês: {meses[4]}')
+            print(f'Mês: {months[4]}')
 
         if calendar.month == 6:
-            print(f'Mês: {meses[5]}')
+            print(f'Mês: {months[5]}')
 
         if calendar.month == 7:
-            print(f'Mês: {meses[6]}')
+            print(f'Mês: {months[6]}')
 
         if calendar.month == 8:
-            print(f'Mês: {meses[7]}')
+            print(f'Mês: {months[7]}')
 
         if calendar.month == 9:
-            print(f'Mês: {meses[8]}')
+            print(f'Mês: {months[8]}')
 
         if calendar.month == 10:
-            print(f'Mês: {meses[9]}')
+            print(f'Mês: {months[9]}')
 
         if calendar.month == 11:
-            print(f'Mês: {meses[10]}')
+            print(f'Mês: {months[10]}')
 
         if calendar.month == 12:
-            print(f'Mês: {meses[11]}')
+            print(f'Mês: {months[11]}')
 
         print(f'Ano: {calendar.year}')
     show_date()
